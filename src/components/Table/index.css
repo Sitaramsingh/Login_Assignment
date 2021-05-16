@@ -1,0 +1,26 @@
+.tablecont, tbody, tr,td, th{
+    color: #787878 !important;
+    font: inherit;
+    white-space: nowrap; 
+}
+.headbgcolor{
+    background: #E7ECF1 0% 0% no-repeat padding-box;
+}
+.headbgcolor tr th{
+    padding: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+    
+}
+.onHover tr:hover{
+    background: #E9F1FA;
+    cursor: pointer;
+}
+
+@media (min-width: 767px){
+    .headbgcolor tr th{
+        padding: 12px;
+        font: inherit;
+        font: Bold 14px/17px Roboto;
+    }
+}

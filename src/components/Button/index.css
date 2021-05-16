@@ -1,0 +1,27 @@
+.butn{
+    width: 100%;
+    padding:10px;
+    color:#184775;
+    border: 1px solid #184775;
+    display: block;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: transparent;
+    margin-bottom: 10px;
+ }
+ 
+ .butn-primary{
+     background-color: #184775;
+     color: white;
+     font-weight: 400;
+ }
+ 
+ .butn:hover{
+     background-color: transparent;
+     color:#184775;
+     border: 1px solid #184775;
+ }
+ .butn:focus{
+     outline: none;
+ }
+ 
